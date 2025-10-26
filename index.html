@@ -1,1 +1,41 @@
-e
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Goon Squad</title>
+  <style>
+    :root{--black:#000000;--orange:#FF6A00}
+    html,body{height:100%;margin:0;background:var(--black);color:var(--orange);font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial}
+    .container{min-height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2rem;text-align:center}
+    h1{font-size:4rem;margin:0 0 0.5rem;color:var(--orange);letter-spacing:0.06em}
+    h2{margin:0 0 1.5rem;color:var(--orange);opacity:0.95}
+    p{max-width:55ch;font-size:1.125rem;line-height:1.5;margin:0 0 1.25rem;color:var(--orange)}
+    .members{display:flex;gap:1.25rem;margin-top:1rem}
+    .member{border:2px solid var(--orange);padding:0.75rem 1rem;border-radius:0.6rem}
+    .footer{position:fixed;left:0;right:0;bottom:0;padding:0.5rem 1rem;text-align:center;font-size:0.875rem;color:var(--orange);opacity:0.9}
+    a{color:var(--orange);text-decoration:underline}
+    @media (max-width:600px){h1{font-size:2.4rem}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Goon Squad</h1>
+      <h2>Official website</h2>
+    </header>
+
+    <main>
+      <p>Welcome to the official Goon Squad website. The Goon Squad is the most powerful gooners in the world. Anyone who wants to 1v1 in a swordfight—we will win. We are really powerful and can land 100 hits in 1 minute, easy.</p>
+
+      <div class="members" aria-label="Members">
+        <div class="member">Ozzy</div>
+        <div class="member">Ryan</div>
+        <div class="member">Zane</div>
+      </div>
+    </main>
+
+    <div class="footer">All content black & orange — this page uses only black and orange.</div>
+  </div>
+</body>
+</html>
